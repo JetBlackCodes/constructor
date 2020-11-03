@@ -1,0 +1,22 @@
+{
+  "name": "constructor",
+  "version": "1.0.0",
+  "description": "javascript pure application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html -p 3000 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "melnikova_ia (calmalavoro@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "utils": "^0.3.1"
+  }
+}
